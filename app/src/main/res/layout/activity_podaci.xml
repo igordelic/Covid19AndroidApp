@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Podaci">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="400dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toTopOf="@+id/unos4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/graf" />
+
+    <EditText
+        android:id="@+id/unos1"
+        android:layout_width="308dp"
+        android:layout_height="61dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint=" Trenutna temperatura"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/unos2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unos4" />
+
+    <EditText
+        android:id="@+id/unos2"
+        android:layout_width="308dp"
+        android:layout_height="61dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint=" Maksimalna dnevna temperatura"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/unos3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unos1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="81dp"
+        android:layout_height="48dp"
+        android:text="Unesi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
+
+    <EditText
+        android:id="@+id/unos3"
+        android:layout_width="308dp"
+        android:layout_height="61dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint=" Broj dana od pojave prvih simptoma"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unos2" />
+
+    <EditText
+        android:id="@+id/unos4"
+        android:layout_width="308dp"
+        android:layout_height="61dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint=" Korisnik"
+        app:layout_constraintBottom_toTopOf="@+id/unos1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

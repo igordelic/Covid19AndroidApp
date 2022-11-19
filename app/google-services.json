@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "785963973804",
+    "firebase_url": "https://covidappbase-default-rtdb.firebaseio.com",
+    "project_id": "covidappbase",
+    "storage_bucket": "covidappbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785963973804:android:746a24fe21a3db9c92b309",
+        "android_client_info": {
+          "package_name": "com.example.applicationtocheckforcovid19infectionbasedonsymptoms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785963973804-hd67gf3ukmjmvdi1sk2anrskf1jl4ta2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWy3_wdBHvtl09x3OvunXv6dN_w7sduFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785963973804-hd67gf3ukmjmvdi1sk2anrskf1jl4ta2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

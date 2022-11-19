@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_500"
+    tools:context=".Gripa">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="407dp"
+        android:layout_height="256dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grip" />
+
+    <Button
+        android:id="@+id/gripBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="16dp"
+        android:text="Povratak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="391dp"
+        android:layout_height="113dp"
+        android:layout_marginBottom="20dp"
+        android:text="Prema simptomima koje ste odabrali, vjerojatno se radi o gripi. Gripa je virusna bolest koja može izazvati ozbiljne i sekundarne bolesti koje mogu biti opasne za život. Na primjer, može doći do upale srčanog mišića ili upale pluća. Najugroženiji su kronični bolesnici i starije osobe."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="386dp"
+        android:layout_height="216dp"
+        android:text="Zasad nema poznatog lijeka protiv virusa gripe. Iako se često propisuju antibiotici, oni su djelotvorni samo protiv bakterija, ali ne i protiv virusa. Liječenjem se ublažavaju simptomi i pomaže se tijelu u samoizlječenju. Zato je razumno uzimati lijekove koji istodobno djeluju protiv nekoliko simptoma poput Lupoceta i Aspirina koji ublažavaju bolove, smanjuju vrućicu i istodobno odčepljuju nos i paranazalne sinuse. Vrlo često brzo ublažavaju simptome, no ukoliko vam se stanje ne poboljša posjetite vašeg doktora. Također posjetite liječnika ako patite od osnovnih bolesti, npr. dijabetesa melitusa ili astme."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/gripBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
